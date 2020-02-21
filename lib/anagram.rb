@@ -16,6 +16,16 @@ class Anagram
       h = {
         
       }
+      
+      input.split("").each_with_index do |letter, index|
+
+        
+        if(word.split("").include?(letter) == false)
+          t = false
+        end
+        
+      end
+      
       word.split("").each_with_index do |letter, index|
 
         
