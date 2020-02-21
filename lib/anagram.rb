@@ -8,7 +8,7 @@ class Anagram
   
   def match(array)
     
-  
+  result = []
     
     array.each_with_index do |word, index|
       
@@ -25,11 +25,12 @@ class Anagram
         
       end
       if(t == true && input.length == word.length)
-        puts word
+        result << word
       end
 
     end
 
+  result
   end
 end
 
