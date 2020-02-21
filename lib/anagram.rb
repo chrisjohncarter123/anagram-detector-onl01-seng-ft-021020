@@ -21,8 +21,6 @@ class Anagram
         
         if(input.split("").include?(letter) == false)
           t = false
-        else
-          break
         end
         
       end
