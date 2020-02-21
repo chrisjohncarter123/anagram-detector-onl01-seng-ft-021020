@@ -36,4 +36,4 @@ end
 
 a = Anagram.new("listen")
 
-a.match(%w(enlists google inlets banana))
+puts a.match(%w(enlists google inlets banana))
