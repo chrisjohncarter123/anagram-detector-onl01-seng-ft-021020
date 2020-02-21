@@ -8,13 +8,7 @@ class Anagram
   
   def match(array)
     
-    test_hash = {
-      
-    }
-    
-    input.split.each_with_index do |letter, index|
-      if(test_hash.)
-    end
+  
     
     array.each_with_index do |word, index|
       
@@ -30,7 +24,7 @@ class Anagram
         end
         
       end
-      if(t == true)
+      if(t == true && input.length == word.length)
         puts word
       end
 
