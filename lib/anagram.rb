@@ -19,7 +19,8 @@ class Anagram
       word.split("").each_with_index do |letter, index|
 
         
-        if(input.split("").include?(letter) == false)
+        if(input.split("").include?(letter) == false || 
+          word.split("").include?(letter))
           t = false
         end
         
